@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'cursedTimer';
+  src:  url('./fonts/cursed-timer.woff2') format('woff2'),
+        url('./fonts/cursed-timer.woff') format('woff');
+}
+
+body {
+    margin: 0;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.container, p, button {
+    border-radius: 10px;
+}
+
+p, button {
+    font-family: "cursedTimer", monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #0C4A6E;
+    max-width: 20rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+p {
+    background-color: black;
+    color: #F94F6D;
+    width: 100px;
+    text-align: center;
+    font-size: 4rem;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+button {
+    background-color: #881337;
+    color: white;
+    border: 1px white solid;
+    padding: 0.5rem;
+}
+
+.stats {
+    flex-direction: column;
+}
